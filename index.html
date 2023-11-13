@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golnaz's Tutoring</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&family=Oswald:wght@400;700&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            text-align: center;
+            align-items: center;
+        }
+
+        body {
+            /* max-width: 500px; */
+            margin: auto;
+            background: white;
+            /* padding: 10px;           */
+            font-family: 'Assistant', sans-serif;
+            width: 75vw;
+            border: solid 1px lightgrey;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        h1 {
+            font-family: 'Oswald', sans-serif;
+        }
+
+        header,footer {
+            text-align: center;
+            background-color: lightsalmon;
+            /*border: 1px solid red;*/
+            padding: 10px;
+
+        }
+
+        header>nav>ul {
+            /* text-align: center; */
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            /*border: 1px solid red;*/
+            justify-content: center;
+        }
+
+        header>nav>ul>li {
+            margin-right: 10px;
+        }
+
+        header>nav>ul>li>a {
+            text-decoration: none;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            padding: 50px;
+        }
+
+        main>div {
+            width: 50%;
+            text-align: center;
+        }
+        section{
+            text-align: center;
+            margin: auto;  
+            justify-content: center;      
+            /* border: 2px solid gray;   */
+            margin-bottom: 5px;  
+        }
+        table{
+            width: 500px;
+            background-color: aquamarine;
+            margin: auto;
+            border: 2px solid lightsalmon;
+        }
+        tr{            
+            /* border: 2px solid lightsalmon;
+            background-color: brown; */
+        }
+        td{
+            border: 2px solid lightsalmon;
+        }
+        footer {
+            text-align: center;
+            font-size: 12px;
+        }
+        img{
+            border-radius: 10px;
+            border: 2px solid gray;
+        }
+        img:hover{
+            filter: grayscale(50%);
+        
+        }
+
+        #timeTable {
+            background-color: mediumturquoise;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Golnaz's Tutoring Services</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Facebook</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <p>welcome message</p>
+            <audio controls>
+
+            </audio>
+        </div>
+        <div>
+            <img src="assets/1.jpg" width="70%" />
+        </div>
+    </main>
+    <section id="timeTable">
+        <br/>
+        <h2>Weekly Tutoring Schedule</h2>
+        <table>
+            <tr>
+                <td><h4>Date</h4></td>
+                <td><h4>Time</h4></td>
+                <td><h4>Subject</h4></td>
+            </tr>
+            <tr>
+                <td>12 Jan 2023</td>
+                <td>9-11am</td>
+                <td>C#</td>
+            </tr>
+            <tr>
+                <td>13 Jan 2023</td>
+                <td>9-11am</td>
+                <td>asp.net</td>
+            </tr>
+            <tr>
+                <td>14 Jan 2023</td>
+                <td>9-11am</td>
+                <td>SQL Server</td>
+            </tr>
+        </table>
+        <br/>
+        <br/>
+    </section>
+    <section>
+<form>
+    <br/>
+    <h1>
+        Feel free to contact me and ask your questions!
+    </h1>
+    <lable for="txtName">Name: </lable><input id="txtName" type="text"/>
+    <br/>
+    <label>Subject:</label><input type="text"/>
+    <br/>
+    <br/>
+    <br/>
+</form>
+    </section>
+    <footer>
+        <p>All rights reserved for Golnaz Chehrazi @2023.</p>
+    </footer>
+</body>
+
+</html>
